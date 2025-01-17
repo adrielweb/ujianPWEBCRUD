@@ -57,9 +57,9 @@ function menuSetup() {
 						dialog.showMessageBox(mainWindow, {
 							type: "info",
 							title: "About",
-							message: "todometer is built by @cassidoo",
+							message: "todometer is built by Kelompok awewo",
 							detail:
-								"You can find her on most things @cassidoo, or on her website cassidoo.co.",
+								"Kenapa bang?",
 							icon: path.join(app.getAppPath(), "assets/png/64x64.png"),
 						});
 					},
@@ -67,7 +67,7 @@ function menuSetup() {
 				{
 					label: "Contribute (v" + version + ")",
 					click: () => {
-						shell.openExternal("https://github.com/cassidoo/todometer");
+						shell.openExternal("https://github.com/adrielweb/ujianPWEBCRUD");
 					},
 				},
 				{
